@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>ql</Name>
+  <Name>ql21</Name>
   <Repository>justoeone/ql28:2.10.13</Repository>
   <Registry>https://hub.docker.com/r/justoeone/ql28</Registry>
   <Network>bridge</Network>
@@ -13,11 +13,11 @@
   <Category/>
   <WebUI>http://[IP]:[PORT:5700]</WebUI>
   <TemplateURL/>
-  <Icon>https://wkphoto.cdn.bcebos.com/11385343fbf2b2111c7f752cda8065380cd78e7b.jpg</Icon>
+  <Icon>https://raw.githubusercontent.com/oeone/unraid/main/icon/ql.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1650263938</DateInstalled>
+  <DateInstalled>1650278741</DateInstalled>
   <DonateText/>
   <DonateLink/>
   <Description>&#x9752;&#x9F99;</Description>
@@ -33,7 +33,7 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/ql/config</HostDir>
+      <HostDir>/mnt/user/appdata/ql/config/</HostDir>
       <ContainerDir>/ql/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
@@ -56,7 +56,7 @@
   <Environment/>
   <Labels/>
   <Config Name="Web Port 1" Target="5700" Default="5700" Mode="tcp" Description="&#x5BB9;&#x5668; Port: 5700" Type="Port" Display="always" Required="false" Mask="false">5700</Config>
-  <Config Name="Config Path 1" Target="/ql/config" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /ql/config" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ql/config</Config>
+  <Config Name="Config Path 1" Target="/ql/config" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /ql/config" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ql/config/</Config>
   <Config Name="Log Path 1" Target="/ql/log" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /ql/log" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ql/log</Config>
   <Config Name="DB Path 1" Target="/ql/db" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /ql/db" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ql/db</Config>
   <Config Name="Scripts Path 1" Target="/ql/scripts" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /ql/scripts" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ql/scripts</Config>
