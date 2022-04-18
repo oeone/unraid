@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>elecv2p21</Name>
+  <Name>elecv2p</Name>
   <Repository>elecv2/elecv2p</Repository>
   <Registry>https://hub.docker.com/r/elecv2/elecv2p</Registry>
   <Network>bridge</Network>
@@ -78,7 +78,7 @@
   <Config Name="Web Port 1" Target="80" Default="" Mode="tcp" Description="&#x5BB9;&#x5668; Port: 80" Type="Port" Display="always" Required="false" Mask="false">8100</Config>
   <Config Name="Http Proxy Port 1" Target="8001" Default="" Mode="tcp" Description="&#x5BB9;&#x5668; Port: 8001" Type="Port" Display="always" Required="false" Mask="false">8101</Config>
   <Config Name="Web Port 2" Target="8002" Default="" Mode="tcp" Description="&#x5BB9;&#x5668; Port: 8002" Type="Port" Display="always" Required="false" Mask="false">8102</Config>
-  <Config Name="JSFile Path 1" Target="/usr/local/app/script/JSFile" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /usr/local/app/script/JSFile" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/elecv2p/JSFile/</Config>
+  <Config Name="JSFile" Target="/usr/local/app/script/JSFile" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /usr/local/app/script/JSFile" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/elecv2p/JSFile/</Config>
   <Config Name="Lists" Target="/usr/local/app/script/Lists" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /usr/local/app/script/Lists" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/elecv2p/Lists</Config>
   <Config Name="Store" Target="/usr/local/app/script/Store" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /usr/local/app/script/Store" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/elecv2p/Store</Config>
   <Config Name="Shell" Target="/usr/local/app/script/Shell" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /usr/local/app/script/Shell" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/elecv2p/Shell</Config>

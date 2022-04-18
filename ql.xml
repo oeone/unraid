@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>ql21</Name>
+  <Name>ql</Name>
   <Repository>justoeone/ql28:2.10.13</Repository>
   <Registry>https://hub.docker.com/r/justoeone/ql28</Registry>
   <Network>bridge</Network>
