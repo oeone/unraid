@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>nvjdc</Name>
+  <Repository>justoeone/nvjdc:2.3</Repository>
+  <Registry>https://hub.docker.com/r/justoeone/nvjdc</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>nvjdc</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:5797]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/oeone/unraid/main/icon/nvjdc.png</Icon>
+  <ExtraParams>-it --privileged=true</ExtraParams>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1650342330</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description>nvjdc</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>5797</HostPort>
+        <ContainerPort>80</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/nvjdc</HostDir>
+      <ContainerDir>/app</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+    <Volume>
+      <HostDir>/etc/localtime</HostDir>
+      <ContainerDir>/etc/localtime</ContainerDir>
+      <Mode>ro</Mode>
+    </Volume>
+  </Data>
+  <Environment/>
+  <Labels/>
+  <Config Name="Web Port" Target="80" Default="" Mode="tcp" Description="&#x5BB9;&#x5668; Port: 80" Type="Port" Display="always" Required="false" Mask="false">5797</Config>
+  <Config Name="Host Path 1" Target="/app" Default="" Mode="rw" Description="&#x5BB9;&#x5668; Path: /app" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/nvjdc</Config>
+  <Config Name="Host Path 2" Target="/etc/localtime" Default="" Mode="ro" Description="&#x5BB9;&#x5668; Path: /etc/localtime" Type="Path" Display="always" Required="false" Mask="false">/etc/localtime</Config>
+</Container>
