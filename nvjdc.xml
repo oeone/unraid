@@ -11,7 +11,7 @@
   <Project/>
   <Overview>nvjdc</Overview>
   <Category/>
-  <WebUI>http://[IP]:[PORT:5797]</WebUI>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/oeone/unraid/main/icon/nvjdc.png</Icon>
   <ExtraParams>-it --privileged=true</ExtraParams>

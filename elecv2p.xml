@@ -11,7 +11,7 @@
   <Project/>
   <Overview>elecv2p</Overview>
   <Category/>
-  <WebUI>http://[IP]:[PORT:8100]</WebUI>
+  <WebUI>http://[IP]:[PORT:80]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/oeone/unraid/main/icon/elecv2p.png</Icon>
   <ExtraParams/>
